@@ -38,7 +38,7 @@ public class ReceiverReliabilityUDP {
             e.printStackTrace();
         }
         System.out.println(SIPAddress + ":" + this.port);
-        String filePath = "C:\\Users\\wasim\\IdeaProjects\\FileUDPReliability\\src\\receiveFile";
+        String filePath = "C:\\Users\\wasim\\IdeaProjects\\ReliabilityFileUDP\\src\\receiveFile";
         datagramSocket = new DatagramSocket(this.port, IPAddress);
         new Thread() {
             @Override
